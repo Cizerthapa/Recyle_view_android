@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
     public ArrayList getStudent(){
         ArrayList data = new ArrayList<Student>();
-        data.add(new Student("Abhishek","19",drawableResourceId1));
-        data.add(new Student("Prayatna","18",drawableResourceId2));
-        data.add(new Student("Ashma","99",drawableResourceId3));
+        data.add(new Student("Abhishek Patel","19",drawableResourceId1));
+        data.add(new Student("Prayatna Rajkarnikar","18",drawableResourceId2));
+        data.add(new Student("Ashma Maharjan","19",drawableResourceId3));
         return data;
     }
     @Override
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         MainActivity ma = new MainActivity();
         ArrayList<Student> data = ma.getStudent();
-        LinearLayoutManager manager = new LinearLayoutManager(this,RecyclerView.VERTICAL,false);
+        LinearLayoutManager manager = new LinearLayoutManager(this,RecyclerView.HORIZONTAL,false);
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this)); // For linear list
 
