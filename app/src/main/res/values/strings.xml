@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Week3-Recycle</string>
+    <string name="imgDesc">Here, is the images of student</string>
+    <string name="picIndividual">Photo of individual</string>
+</resources>

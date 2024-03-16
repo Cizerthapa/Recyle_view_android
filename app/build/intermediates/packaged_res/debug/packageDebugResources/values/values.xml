@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Week3-Recycle</string>
+    <string name="imgDesc">Here, is the images of student</string>
+    <string name="picIndividual">Photo of individual</string>
+    <style name="Base.Theme.Week3Recycle" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Week3Recycle" parent="Base.Theme.Week3Recycle"/>
+</resources>
